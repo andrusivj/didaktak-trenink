@@ -1,0 +1,9 @@
+
+:root{--bg:#f7f7f8;--card:#fff}
+body{font-family:Inter, system-ui, Arial, sans-serif;margin:0;background:var(--bg);color:#111}
+.app{max-width:900px;margin:24px auto;padding:16px}
+header h1{font-size:20px;margin:0 0 12px}
+.controls{display:flex;gap:12px;align-items:center;margin-bottom:12px}
+.question{background:var(--card);padding:16px;border-radius:8px;box-shadow:0 2px 6px rgba(0,0,0,0.06)}
+.answers{margin-top:12px;display:flex;gap:8px}
+button{padding:8px 12px;border-radius:6px;border:1px solid #ccc;background:white;cursor:pointer}
